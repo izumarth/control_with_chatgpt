@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "control-with-chatgpt"
+version = "0.1.0"
+description = ""
+authors = ["izumarth"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.16.1"
+requests = "^2.31.0"
+pyautogui = "^0.9.54"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
